@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* 
+font-family: 'Raleway', sans-serif;
+Headerhöhe:76px
+Logofarbe: #666
+Logofarbe in hover: #333
+Menüfarbe: #333 
+Menüfarbe in hover: #337ab7 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header Styles */
+
+header {
+    border-top: 2px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+header nav {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: baseline; 
+    margin: 4vh auto; 
+}
+
+.push {
+    margin-left: auto; 
+}
+
+header nav > a {
+    font-size: 1.5rem; 
+    color: #666; 
+}
+
+header nav > a:hover {
+    color: #333; 
+}
+
+header nav ul {
+    display: flex; 
+    list-style: none; 
+    justify-content: space-between; 
+    width: 50%; 
+}
+
+header nav ul li a {
+    color: #333; 
+}
+
+header nav ul li a:hover {
+    color: #337ab7; 
+}
+
+
+/* Main Styles */
+main > div {
+    background-image: url("https://demo.colorlib.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+}
+
+main > div section h1 {
+    font-size: 4rem;
+    font-weight: normal;
+    margin-bottom: 10vh; 
+}
+
+main > div section p {
+    margin-bottom: 5vh; 
+    font-size: 1.5rem;
+}
+
+main > div section div a {
+    color: white;
+}
+
+.purbleButton {
+    padding: 2% 10%; 
+    background: #745cf9; 
+    border: 2px solid #745cf9; 
+    margin-right: 2%; 
+    color: white; 
+}
+
+.purbleButton:hover {
+    background: #5234f9; 
+    border: 2px solid #5234f9;
+}
+
+main section a:nth-of-type(2) {
+    padding: 2% 10%; 
+    border: 2px solid white; 
+}
+
+main > div section a:nth-of-type(2):hover {
+    background: white; 
+    color: black; 
+}
+
+main > section {
+/*     margin: 10vh 0;  */
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 60vh;
+    gap: 20px; 
+/*     display: flex; 
+    justify-content: center; 
+    align-items:center;  */
+}
+
+main > section {
+    padding: 10vh 5vw; 
+}
+
+main > section:nth-of-type(2) {
+    background: rgb(245,245,245); 
+}
+
+main > section article {
+    width: 30vw; 
+}
+
+main > section h2 {
+    margin: 4vh 0; 
+    font-size: normal;
+}
+
+main > section p {
+    line-height: 35px;
+    margin-bottom: 5vh; 
+    color: #8c979e; 
+}
+
+main > section img {
+    width: 50vw; 
+}
